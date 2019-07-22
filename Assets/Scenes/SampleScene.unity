@@ -213,8 +213,6 @@ GameObject:
   m_Component:
   - component: {fileID: 712154566}
   - component: {fileID: 712154565}
-  - component: {fileID: 712154564}
-  - component: {fileID: 712154563}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -222,30 +220,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &712154563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712154562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &712154564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712154562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!223 &712154565
 Canvas:
   m_ObjectHideFlags: 0
@@ -557,7 +531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Title Text
+  m_Text: Sheepherder's Adventure
 --- !u!222 &1044511415
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -691,7 +665,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138a07686555d145af8df7f9a434639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 1055924124}
+  storyText: {fileID: 1055924124}
+  optionText: {fileID: 1744198614}
+  startingState: {fileID: 11400000, guid: 70c6af6d6bdb17444875f2551fbfde81, type: 2}
 --- !u!1 &1744198612
 GameObject:
   m_ObjectHideFlags: 0
