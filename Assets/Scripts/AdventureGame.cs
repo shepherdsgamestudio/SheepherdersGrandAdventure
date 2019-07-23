@@ -6,6 +6,7 @@ public class AdventureGame : MonoBehaviour
     [SerializeField] Text storyText;
     [SerializeField] Text optionText;
     [SerializeField] State startingState;
+    [SerializeField] AudioSource audio;
 
     State currentState;
 
@@ -20,13 +21,20 @@ public class AdventureGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int oldState = currentState.GetInstanceID();
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             Application.Quit();
-
         }
         ManageState();
         UpdateText();
+
+        if (oldState != currentState.GetInstanceID())
+        {
+            //play sound
+            audio.PlayOneShot(audio.clip, 1);
+        }
     }
 
     private void UpdateText()
