@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: A15
+  m_EditorClassIdentifier: 
+  storyText: "You confidently step off in the direction of the hoofprints.  As you
+    begin your march, your brother lets out a heavy sigh, shakes his head, and heads
+    off in the opposite direction.  Oops.\r\n\r\nAfter a couple minutes of walking,
+    you begin to hear bleating in the distance.  However, the bleating does not line
+    up with the path that you're currently following.  "
+  nextStates:
+  - {fileID: 11400000, guid: 70c52342d83913e408495a05222111bb, type: 2}
+  - {fileID: 11400000, guid: 6da4bd405227d87448338c1f68140bd5, type: 2}
+  leadingOption: Start off in the direction of the prints

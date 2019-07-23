@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to Sheepherder''s Grand Adventure, the text-based adventure
+    game that lets you make all of the decisions!  At the bottom of the window are
+    options that are numbered.  Press the corresponding number in order to proceed
+    the story with that action.  There is no going back once you''ve made a decision,
+    so choose carefully!
+
+
+    Press ''q'' to quit the game.'
+  nextStates:
+  - {fileID: 11400000, guid: 70c6af6d6bdb17444875f2551fbfde81, type: 2}
+  leadingOption: Start over.

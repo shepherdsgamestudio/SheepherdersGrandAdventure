@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: A13
+  m_EditorClassIdentifier: 
+  storyText: 'Your brother turns around with the fierce intensity of a madman and
+    sticks his finger right in your face.  "You really are a nincompoop. Any shepherd
+    worth a grain of salt would see these hoofprints that mark the herd''s trail."  You
+    squint your eyes and begin to nod your head, as you start to see the outline of
+    the hoofprints.  '
+  nextStates:
+  - {fileID: 11400000, guid: 59acdc64fe3cbc84ab0d5c0706a86895, type: 2}
+  - {fileID: 11400000, guid: e662df8a02b452344bb0613ece9946db, type: 2}
+  leadingOption: Ask him where he's going

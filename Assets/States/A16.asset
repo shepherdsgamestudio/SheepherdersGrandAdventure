@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: A16
+  m_EditorClassIdentifier: 
+  storyText: 'With what seems like a a stroke of blind luck, the bleating continues
+    to get louder as time goes on.  With a few minutes, you crest a hillside that
+    opens up upon a miraculous view:  the herd in all of its glory.  Unfortunately,
+    you realize that all of the bleating from the sheep was caused by your brother,
+    who is already herding the sheep back to the grazing land.  When he spots you,
+    he simply shakes his head and solemnly turns back to minding the sheep.  There''s
+    no doubt that you''ll be catching hell about this later from your father.  '
+  nextStates:
+  - {fileID: 11400000, guid: 6f4ad2cbd498c3a4c8603997c0e0230a, type: 2}
+  leadingOption: Follow the bleating

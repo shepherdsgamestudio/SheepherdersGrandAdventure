@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: EndState
+  m_EditorClassIdentifier: 
+  storyText: 'Thanks for playing.  Hope you enjoyed the game.  For more games by the
+    same developer, see https://github.com/shepherdsgamestudio/.
+
+
+    Press ''q'' to quit the game.'
+  nextStates:
+  - {fileID: 11400000, guid: 1e38b2e2149befe4383604da293e5053, type: 2}
+  leadingOption: The End.

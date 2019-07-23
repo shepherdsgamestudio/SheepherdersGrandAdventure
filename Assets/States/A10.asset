@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
+  m_Name: A10
+  m_EditorClassIdentifier: 
+  storyText: With the rage that only a brother can muster, Ulric goes storming off
+    in a seemingly random direction, robe harshly strewn about his broad frame.  His
+    disheveled look is certainly not adding to his hatred of morning.  You sheepishly
+    follow after him as you wonder where he's headed.
+  nextStates:
+  - {fileID: 11400000, guid: cd84d9e835e58a843bf75dd0c0cd2945, type: 2}
+  - {fileID: 11400000, guid: c64249b966a4e9f468ed5ca910459c6c, type: 2}
+  leadingOption: Tell him the bad news
