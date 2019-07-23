@@ -24,3 +24,4 @@ MonoBehaviour:
   - 1. The End.
   nextStates:
   - {fileID: 11400000, guid: 6f4ad2cbd498c3a4c8603997c0e0230a, type: 2}
+  leadingOption: Follow the white fur

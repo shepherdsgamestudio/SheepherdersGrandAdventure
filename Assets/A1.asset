@@ -18,3 +18,4 @@ MonoBehaviour:
     you scarcely recognize in your daze.  "Father is going to kill us!"
   availableOptions: []
   nextStates: []
+  leadingOption: Go back to sleep

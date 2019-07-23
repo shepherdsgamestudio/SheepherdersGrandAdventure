@@ -19,7 +19,6 @@ MonoBehaviour:
     quiet, not a single sheep of the flock has been lost.  Some (such as your father)
     may say that it was your diligent watch that kept the sheep safe.  That would
     be a lie.
-  availableOptions:
-  - 1. Continue
   nextStates:
   - {fileID: 11400000, guid: e72f064e5b1039346aa7229178fb8383, type: 2}
+  leadingOption: Start!

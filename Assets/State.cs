@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
     [TextArea(10, 14)][SerializeField] private string storyText;
-    [SerializeField] private string[] availableOptions;
     [SerializeField] private State[] nextStates;
+    [SerializeField] private string leadingOption;
 
     public string GetStateStory()
     {
@@ -16,11 +16,21 @@ public class State : ScriptableObject
 
     public string GetStateOptions()
     {
-        return string.Join<string>("\n", this.availableOptions);
+        List<string> options = this.GetNextStates().Select(state => state.GetLeadingOption()).ToList();
+        for (int i = 1; i <= options.Count; i++)
+        {
+            options[i-1] = i + ". " + options[i-1];
+        }
+        return string.Join<string>("\n", options);
     }
 
     public State[] GetNextStates()
     {
         return this.nextStates;
+    }
+
+    public string GetLeadingOption()
+    {
+        return this.leadingOption;
     }
 }

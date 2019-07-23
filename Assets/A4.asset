@@ -20,7 +20,8 @@ MonoBehaviour:
     fur further along.  As you continue to gaze, wondering if you can even follow
     the trail, you hear the slightest bleating in the distance from where you came.
   availableOptions:
-  - 1. Follow The White Fure
-  - 2. Follow The Bleating
+  - 1. Follow the white fur
+  - 2. Follow the bleating
   nextStates:
   - {fileID: 11400000, guid: 0aca8f52c61396a49adc86102d67b250, type: 2}
+  leadingOption: Continue Investigating

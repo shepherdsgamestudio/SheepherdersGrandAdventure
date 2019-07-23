@@ -531,7 +531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sheepherder's Adventure
+  m_Text: Sheepherder's Grand Adventure
 --- !u!222 &1044511415
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: {fileID: 1055924124}
   optionText: {fileID: 1744198614}
-  startingState: {fileID: 11400000, guid: 70c6af6d6bdb17444875f2551fbfde81, type: 2}
+  startingState: {fileID: 11400000, guid: 1e38b2e2149befe4383604da293e5053, type: 2}
 --- !u!1 &1744198612
 GameObject:
   m_ObjectHideFlags: 0

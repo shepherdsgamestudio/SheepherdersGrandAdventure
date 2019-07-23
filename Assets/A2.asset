@@ -21,3 +21,4 @@ MonoBehaviour:
   - 2. Wake Your Brother
   nextStates:
   - {fileID: 11400000, guid: 7243f2461a3fe094790d19d15e6d47a4, type: 2}
+  leadingOption: Slowly creep out of bed

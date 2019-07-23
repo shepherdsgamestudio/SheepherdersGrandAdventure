@@ -19,7 +19,8 @@ MonoBehaviour:
     find that your flock is missing!
   availableOptions:
   - 1. Go back to sleep
-  - 2. Jump out of your sleeping bag.
-  availableStates:
-  - {fileID: 0}
-  - {fileID: 0}
+  - 2. Slowly creep out of bed
+  nextStates:
+  - {fileID: 11400000, guid: ef726c62fa3fe8143b5d5daa00a134fe, type: 2}
+  - {fileID: 11400000, guid: d5b9e93c79d4dac4292f7c271c733e5b, type: 2}
+  leadingOption: Continue

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad2a5534d9854b4eaa55422077727a3, type: 3}
   m_Name: EndState
   m_EditorClassIdentifier: 
-  storyText: 
-  availableOptions: []
+  storyText: Thanks for playing.  Hope you enjoyed the game.  For more games by the
+    same developer, see https://github.com/shepherdsgamestudio/.
   nextStates: []
+  leadingOption: The End.

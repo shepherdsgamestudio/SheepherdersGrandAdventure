@@ -20,5 +20,6 @@ MonoBehaviour:
   - 1. Back To Camp
   - 2. Continue Investigating
   nextStates:
-  - {fileID: 11400000, guid: d19e5b88b090cb94eb015adf6da30e8a, type: 2}
   - {fileID: 11400000, guid: a8b9619eb7afb6a4292d723271b40313, type: 2}
+  - {fileID: 11400000, guid: d19e5b88b090cb94eb015adf6da30e8a, type: 2}
+  leadingOption: Quietly investigate
